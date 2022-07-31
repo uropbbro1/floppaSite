@@ -1,5 +1,5 @@
 header{
-    background-image: url("/assets/headerBackground.jpg");
+    background-image: url("assets/headerBackground.jpg");
     width: 100vw;
     height: 84px;
     position: absolute;
@@ -91,7 +91,7 @@ a:visited {
 
 .mainOffer{
     height: 662px;
-    background: url("/assets/offerBackground.png")no-repeat;
+    background: url("assets/offerBackground.png")no-repeat;
     width: 100vw;
     bottom: 10px;
     right: 10px;
@@ -147,7 +147,7 @@ a:visited {
     height: 195.91px;
     left: 15px;
     top: 80px;
-    background-image: url(/assets/catMainOffer1.jpg);
+    background-image: url(assets/catMainOffer1.jpg);
 }
 
 .buyButton1{
@@ -196,7 +196,7 @@ a:visited {
     height: 195.91px;
     left: 15px;
     top: 80px;
-    background-image: url(/assets/carMainOffer2.jpg);
+    background-image: url(assets/carMainOffer2.jpg);
 }
 
 .buyButton2{
@@ -235,7 +235,7 @@ a:visited {
     height: 1046px;
     left: 0px;
     top: 746px;
-    background-image: url("/assets/aboutCompanyBackground.png");
+    background-image: url("assets/aboutCompanyBackground.png");
 }
 
 .aboutCompanyText{
@@ -275,7 +275,7 @@ a:visited {
 .companyCatPhoto1{
     width: 676px;
     height: 440px;
-    background-image: url("/assets/companyCatPhoto1.jpg");
+    background-image: url("assets/companyCatPhoto1.jpg");
     position: absolute;
     left: 610px;
     top: 0px;
@@ -285,7 +285,7 @@ a:visited {
 .companyCatPhoto2{
     width: 676px;
     height: 440px;
-    background-image: url("/assets/companyCatPhoto2.jpg");
+    background-image: url("assets/companyCatPhoto2.jpg");
     position: absolute;
     left: 10px;
     top: 500px;
@@ -296,7 +296,7 @@ a:visited {
     position:absolute;
     width: 100vw;
     height: 670px;
-    background-image: url("/assets/aboutManufacturers.jpg");
+    background-image: url("assets/aboutManufacturers.jpg");
     top: 1792px;
     left: 0px;
 }
@@ -328,7 +328,7 @@ a:visited {
     height: 1500px;
     left: 0px;
     top: 2462px;
-    background-image: url("/assets/catsMaleBackground.jpeg");
+    background-image: url("assets/catsMaleBackground.jpeg");
 }
 
 .aboutCatsMale h1{
@@ -362,7 +362,7 @@ a:visited {
 
 .catsMalePhotos1{
     position: absolute;
-    background-image: url("/assets/catsMalePhoto1.jpg");
+    background-image: url("assets/catsMalePhoto1.jpg");
     height: 358px;
     width: 488px;
     border-radius: 10px;
@@ -413,7 +413,7 @@ a:visited {
 
 .catsMalePhotos2{
     position: absolute;
-    background-image: url("/assets/catsMalePhoto2.jpg");
+    background-image: url("assets/catsMalePhoto2.jpg");
     height: 358px;
     width: 488px;
     border-radius: 10px;
@@ -441,7 +441,7 @@ a:visited {
     height: 1500px;
     left: 0px;
     top: 3960px;
-    background-image: url("/assets/catsFemaleBackground.jpg");
+    background-image: url("assets/catsFemaleBackground.jpg");
 }
 
 .aboutCatsFemale h1{
@@ -475,7 +475,7 @@ a:visited {
 
 .catsFemalePhotos1{
     position: absolute;
-    background-image: url("/assets/catsFemalePhoto1.jpg");
+    background-image: url("assets/catsFemalePhoto1.jpg");
     height: 358px;
     width: 488px;
     border-radius: 10px;
@@ -527,7 +527,7 @@ a:visited {
 
 .catsFemalePhotos2{
     position: absolute;
-    background-image: url("/assets/catsFemalePhoto2.jpg");
+    background-image: url("assets/catsFemalePhoto2.jpg");
     height: 358px;
     width: 488px;
     border-radius: 10px;
@@ -554,7 +554,7 @@ a:visited {
     position: absolute;
     width: 100vw;
     height: 762px;
-    background-image: url("/assets/galleryBackground.png");
+    background-image: url("assets/galleryBackground.png");
     left: 0px;
     top: 1500px;
 }
@@ -565,7 +565,7 @@ a:visited {
     height: 570px;
     left: 114px;
     top: 100px;
-    background-image: url("/assets/galleryBack.png");
+    background-image: url("assets/galleryBack.png");
 }
 
 .galleryBackground ul{
@@ -595,7 +595,7 @@ a:visited {
     width: 100vw;
     height: 1280px;
     top: 2260px;
-    background-image: url("/assets/catsSales1Background.jpg");
+    background-image: url("assets/catsSales1Background.jpg");
 }
 
 .catsSale1 h1{
@@ -629,7 +629,7 @@ a:visited {
     height: 268px;
     left: 8px;
     top: 8px;
-    background: url("/assets/catSalePhoto1.jpg");
+    background: url("assets/catSalePhoto1.jpg");
     border-radius: 15px;
 }
 
@@ -683,7 +683,7 @@ a:visited {
     height: 268px;
     left: 8px;
     top: 8px;
-    background: url("/assets/catSalePhoto2.jpg");
+    background: url("assets/catSalePhoto2.jpg");
     border-radius: 15px;
 }
 
@@ -715,7 +715,7 @@ a:visited {
     width: 100vw;
     height: 1200px;
     top: 3980px;
-    background-image: url("/assets/catSales2Background.jpg");
+    background-image: url("assets/catSales2Background.jpg");
 }
 
 .catsSale2 h1{
@@ -763,7 +763,7 @@ a:visited {
     height: 268px;
     left: 8px;
     top: 8px;
-    background: url("/assets/catSalePhoto1.jpg");
+    background: url("assets/catSalePhoto1.jpg");
     border-radius: 15px;
 }
 
@@ -830,7 +830,7 @@ a:visited {
     height: 268px;
     left: 8px;
     top: 8px;
-    background: url("/assets/catSalePhoto3.jpg");
+    background: url("assets/catSalePhoto3.jpg");
     border-radius: 15px;
 }
 
@@ -850,7 +850,7 @@ a:visited {
     height: 268px;
     left: 8px;
     top: 8px;
-    background: url("/assets/catSalePhoto4.jpg");
+    background: url("assets/catSalePhoto4.jpg");
     border-radius: 15px;
 }
 
@@ -883,7 +883,7 @@ a:visited {
     width: 100vw;
     height: 1280px;
     top: 5180px;
-    background-image: url("/assets/blogBackground.jpg");
+    background-image: url("assets/blogBackground.jpg");
 }
 
 .blog h1{
@@ -928,7 +928,7 @@ a:visited {
 .questions{
     width: 100vw;
     height: 824px;
-    background-image: url("/assets/questionFormBackground.jpg");
+    background-image: url("assets/questionFormBackground.jpg");
     position: absolute;
     top: 6450px;
 }
@@ -936,7 +936,7 @@ a:visited {
 .formBackground{
     width: 934px;
     height: 672px;
-    background-image: url("/assets/formBackground.jpg");
+    background-image: url("assets/formBackground.jpg");
     border-radius: 15px;
     position: relative;
     left: 15%;
@@ -994,7 +994,7 @@ a:visited {
 }
 
 .logoFooter{
-    background: url("/assets/bigFloppaLogo.jpg");
+    background: url("assets/bigFloppaLogo.jpg");
     width: 162px;
     height: 162px;
     border-radius: 50%;
