@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styleEn.css" media="all">
+        <meta charset="utf-8">
+        <title>cattery</title>
+        <style>
+            @font-face {
+            font-family: badScript; /* Гарнитура шрифта */
+            src: url("/fonts/BadScript-Regular.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: bitter; /* Гарнитура шрифта */
+            src: url("/fonts/Bitter-VariableFont_wght.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: asap; /* Гарнитура шрифта */
+            src: url("/fonts/Asap-VariableFont_wght.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: Montserrat; /* Гарнитура шрифта */
+            src: url("/fonts/Montserrat-VariableFont_wght.ttf"); /* Путь к файлу со шрифтом */
+            }
+        </style>
+        <script src="/aboutButtonScroll.js"></script>
+        <script src="/aboutCatsMale.js"></script>
+        <script src="/aboutCatsFemale.js"></script>
+        <script src="/aboutKittens.js"></script>
+        <script src="/blog.js"></script>
+        <script src="/buyButton1.js"></script>
+        <script src="/buybutton2.js"></script>
+    </head>
+    <body>
+     <header>
+        <ul>
+            <li class="navigation">
+                <a href="/indexEn.html" class="logo"><img src="/assets/floppaLogo.jpg" style="border-radius: 50%; align-items: center; margin: 0%; padding: 0%;" width="62" height="62" alt="floppaLogo"></a>
+                <div class="buttons">
+                    <button onclick="companyScroll()">about cattery</button>
+                    <button onclick="catsMaleScroll()">Males</button>
+                    <button onclick="catsFemaleScroll()">Females</button>
+                    <button onclick="kittenScroll()">Kittens</button>
+                    <button onclick="blogScroll()">Blog</button>
+                    <button><a href="/contactsEn.html">Contacts</a></button>
+                </div>           
+                <li class="language">
+                    <a href="/indexCn.html">CN</a>
+                    <a href="/indexEn.html">EN</a>
+                    <a href="/index.html">RU</a>
+                </li>
+                <li class="contacts">
+                    <a href="/indexEn.html" style="border-bottom: 3px solid black;">8(800)-555-35-35</a>
+                    <a href="/indexEn.html">email@mail.ru</a>
+                </li>
+            </li>      
+        </ul>      
+     </header>
+
+     <div class="mainOffer">
+        <h1 class="companyName">"name"<br>Scottish fold cattery</h1>
+        <div class="mainCatOffer1">
+            <div class="backgroundRectangle1">
+                <h1 class="catOffer1">scottish fold kittens<br>(Scottish fold)</h1>
+                <div class="catOfferImage1"></div>
+                <button onclick="buyButton1()" class="buyButton1">buy a kitten</button>
+            </div>
+        </div>
+
+        <div class="mainCatOffer2">
+            <div class="backgroundRectangle2">
+                <h1 class="catOffer2">scottish straight-eared kittens (Scottish fold)</h1>
+                <div class="catOfferImage2"></div>
+                <button onclick="buyButton2()" class="buyButton2">buy a kitten</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="aboutCompany">
+        <div class="aboutCompanyText">
+            <h1>About cattery</h1>
+            <p>a short story about our cattery for Scottish fold and straight-eared cats.<br><br><br>
+               you can come up with the text later, while there is no information about the nursery here.<br><br><br> 
+               Let it be a text that will show how this part of the page with the text will look like.<br><br><br>
+               you can put another picture.</p>
+            <div class="companyCatPhoto1"></div><br>
+            <div class="companyCatPhoto2"></div>
+            <div class="aboutCompanyText2">
+                <p>some other text describing the kittens that are in our kennel.<br><br><br>
+                   you can come up with the text later, while there is no information about the nursery here.<br><br><br> 
+                   Let it be a text that will show how this part of the page with the text will look like.<br><br><br>
+                   you can put another picture.</p>
+            </div>
+        </div>
+     </div>
+
+     <div class="aboutManufacturers">
+        <h1 class="aboutManufacturesText">About our furry manufacturers</h1>
+        <div class="manufacturesPhotos">
+            <img src="/assets/manufactures1.jpg" style="border-radius: 10px;">
+            <img src="/assets/manufactures2.jpg" style="border-radius: 10px;">
+            <img src="/assets/manufactures3.jpg" style="border-radius: 10px;">
+        </div>
+     </div>
+
+     <div class="aboutCatsMale">
+        <h1 class="catsMale">Males</h1>
+        <div class="catsMaleCards">
+            <div class="catsMalePhotos1"></div>
+            <p class="catsMaleInfo">Name: Steve<br>Breed: Scottish Fold (SFS)<br>
+                Color: Black silver ticked (ns25)<br>
+                Title: Champion (CH)<br>
+                Date of birth: 04.11.2020<br>
+                Status: Manufacturer<br>
+                Belonging to the litter: Litter G2</p>
+            <p class="catsMaleInfo1">We present our graduate, champion of the breed, affectionate and kind Steve.
+                A real handsome man with a mind-blowing character and a bright appearance!</p>
+            <button class="catsMaleButton">details</button>
+        </div>
+
+        <div class="catsMaleCards2">
+            <div class="catsMalePhotos2"></div>
+            <p class="catsMaleInfo">Name: Rambo<br>
+                Breed: Scottish straight-eared Scottish Straight<br>
+                Color: Black silver tabby point (NS 2133)<br>
+                Title: Interchampion<br>
+                Date of birth: 04.11.2020<br>
+                Status: Manufacturer<br>
+                Belonging to the litter: Litter H2</p>
+            <p class="catsMaleInfo2">We present to you our cat Rambo!<br>
+               The boy shows great promise as a participant in the silver program of the nursery.an
+               imposing aristocrat who attracts the attention of others.</p>
+            <button class="catsMaleButton">details</button>
+        </div>  
+     </div>
+
+     <div class="aboutCatsFemale">
+        <h1 class="catsFemale">Females</h1>
+        <div class="catsFemaleCards">
+            <div class="catsFemalePhotos1"></div>
+            <p class="catsFemaleInfo">Name: Sara<br>
+                Breed: Scottish Fold (SFS)<br>
+                Color: Black silver ticked (ns25)<br>
+                Title: Champion (CH)<br>
+                Date of birth: 04.11.2020<br>
+                Status: Manufacturer<br>
+                Belonging to the litter: Litter G2</p>
+            <p class="catsFemaleInfo1">We present to you our girl Sarah.<br>
+                Very well-mannered, modest, affectionate and super purring!!!</p>
+            <button class="catsFemaleButton">details</button>
+        </div>
+
+        <div class="catsFemaleCards2">
+            <div class="catsFemalePhotos2"></div>
+            <p class="catsFemaleInfo">Name: Aria<br>
+                Breed: Scottish Fold (SFS)<br>
+                Color: Black silver ticked (ns25)<br>
+                Title: Champion (CH)<br>
+                Date of birth: 04.11.2020<br>
+                Status: Manufacturer<br>
+                Belonging to the litter: Litter H2</p>
+            <p class="catsFemaleInfo2">Our star – Aria differs from all our cats with an unusual
+                oriental eye cut<br>a very stuffed plush fur coat and a cheerful disposition.</p>
+            <button class="catsFemaleButton">details</button>
+     </div>
+
+     <div class="gallerya">
+        <div class="galleryBackground">
+            <h1>Our gallery</h1>
+            <ul>
+                <li><img src="/assets/gallery1.jpeg" alt="1"></li>
+                <li><img src="/assets/gallery2.jpeg" alt="2"></li>
+                <li><img src="/assets/gallery3.jpeg" alt="3"></li>
+            </ul>
+        </div>
+     </div>
+
+     <div class="catsSale1">
+        <h1>scottish fold kittens for sale</h1>
+        <div class="catSaleCard1">
+            <div class="imageBackground">
+                <div class="catSalePhoto1"></div>
+                <p class="catSaleText1">Name: Billy Herrington<br>
+                    Gender: Cat<br>
+                    Date of birth: 06.07.2022<br>
+                    Color: f 26<br>
+                    Other: Polydact 7-7-6-6, HCM N/N.<br>
+                    Documents: Vet passport, Contract
+                    of sale, Pedigree<br>
+                    Belonging to the litter: Litter G2</p>
+                <button class="catSaleButton">send request</button>
+            </div>
+        </div>
+        <div class="catSaleCard2">
+            <div class="imageBackground2">
+                <div class="catSalePhoto2"></div>
+                <p class="catSaleText1">Name: Van Darkholme<br>
+                    Gender: Cat<br>
+                    Date of birth: 05.05.2022<br>
+                    Color: f 25<br>
+                    Other: Polydact 7-7-6-6, HCM N/N.<br>
+                    Documents: Vet passport, Contract
+                    of sale, Pedigree<br>
+                    Belonging to the litter: Litter H2</p>
+                <button class="catSaleButton">send request</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="Background"></div>
+
+     <div class="catsSale2">
+        <h1>scottish straight-eared kittens for sale</h1>
+        <div class="catSaleCard3">
+            <div class="imageBackground">
+                <div class="catSalePhoto3"></div>
+                <p class="catSaleText1">Name: Mark Wolf<br>
+                    Gender: Cat<br>
+                    Date of birth: 06/16/2022<br>
+                    Color: f 26<br>
+                    Other: Polydact 7-7-6-6, HCM N/N.<br>
+                    Documents: Vet passport, Contract
+                    of sale, Pedigree<br>
+                    Belonging to the litter: Litter G2</p>
+                <button class="catSaleButton">send request</button>
+            </div>
+        </div>
+        <div class="catSaleCard4">
+            <div class="imageBackground2">
+                <div class="catSalePhoto4"></div>
+                <p>Name: Steve Rambo<br>
+                    Gender: Cat<br>
+                    Date of birth: 15.04.2022<br>
+                    Color: f 25<br>
+                    Other: Polydact 7-7-6-6, HCM N/N.<br>
+                    Documents: Vet passport, Contract
+                    of sale, Pedigree<br>
+                    Belonging to the litter: Litter H2</p>
+                <button class="catSaleButton">send request</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="blog">
+        <h1>Our blog</h1>
+        <ul>
+            <li>
+                <img src="/assets/blog1.jpg">
+                <p>What to do with a kitten in the<br>
+                   first hours and days at your home</p>
+            </li>
+            <li>
+                <img src="/assets/blog2.jpg">
+                <p>Stress in a cat:<br>
+                   symptoms and treatment</p>
+            </li>
+            <li>
+                <img src="/assets/blog3.png">
+                <p>Instructions for<br>
+                   natural nutrition</p>
+            </li>
+            <li>
+                <img src="/assets/blog4.jpg">
+                <p>How to determine that your<br>
+                   is the kitten sick?</p>
+            </li>
+            <li>
+                <img src="/assets/blog5.jpg">
+                <p>Which food is better:<br>
+                   reading the composition</p>
+            </li>
+            <li>
+                <img src="/assets/blog6.jpg">
+                <p>Bones in the diet of cats</p>
+            </li>
+        </ul>
+     </div>
+
+     <div class="questions">
+        <div class="formBackground">
+            <h1>any questions?</h1>
+            <h2>Write to us!</h2>
+            <p>ask your question and we will definitely answer</p>
+            <form method="post" class="questionForm">          
+                <input type="email" name="email" placeholder="email" required><br>
+                <input type="tel" name="phoneNumber" placeholder="your phoneNumber"><br>       
+                <textarea name="mess" placeholder="your message" required></textarea><br>           
+                <input type="submit" id="submitButton" value="submit">
+             </form>
+        </div>
+     </div>
+    </body>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><div class="logoFooter"></div></li>
+                <li>
+                    <div class="info">
+                            <ul>
+                                <li>
+                                    <div class="company">
+                                        <ul>
+                                            <li>company</li>
+                                            <li><button onclick="companyScroll()">about cattery</button></li>
+                                            <li><a href="/advantagesEn.html">advantages</a></li>
+                                        </ul>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <div class="information">                                
+                                        <ul>
+                                            <li>information</li>
+                                            <li><a href="/reviewsEn.html">Reviews</a></li>
+                                            <li><a href="/contactsEn.html">Contacts</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="stroke"></div> 
+            <div class="footerEnd">
+                <ul>
+                    <li>© ”cattery name" 2022. We love our customers!</li>
+                    <li class="social">our social media profiles: <a href="/index.html"><img src="/assets/inst.png"><img src="/assets/facebook.png"></a></li>
+                </ul> 
+            </div>            
+        </div>
+    </footer>
+</html>

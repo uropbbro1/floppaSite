@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styleCn.css" media="all">
+        <meta charset="utf-8">
+        <title>字体</title>
+        <style>
+            @font-face {
+            font-family: badScript; /* Гарнитура шрифта */
+            src: url("/fonts/BadScript-Regular.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: bitter; /* Гарнитура шрифта */
+            src: url("/fonts/Bitter-VariableFont_wght.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: asap; /* Гарнитура шрифта */
+            src: url("/fonts/Asap-VariableFont_wght.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: Montserrat; /* Гарнитура шрифта */
+            src: url("/fonts/Montserrat-VariableFont_wght.ttf"); /* Путь к файлу со шрифтом */
+            }
+        </style>
+        <script src="/aboutButtonScroll.js"></script>
+        <script src="/aboutCatsMale.js"></script>
+        <script src="/aboutCatsFemale.js"></script>
+        <script src="/aboutKittens.js"></script>
+        <script src="/blog.js"></script>
+        <script src="/buyButton1.js"></script>
+        <script src="/buybutton2.js"></script>
+    </head>
+    <body>
+     <header>
+        <ul>
+            <li class="navigation">
+                <a href="/indexCn.html" class="logo"><img src="/assets/floppaLogo.jpg" style="border-radius: 50%; align-items: center; margin: 0%; padding: 0%;" width="62" height="62" alt="floppaLogo"></a>
+                <div class="buttons">
+                    <button onclick="companyScroll()">关于托儿所</button>
+                    <button onclick="catsMaleScroll()">男孩子们</button>
+                    <button onclick="catsFemaleScroll()">女孩</button>
+                    <button onclick="kittenScroll()">小猫</button>
+                    <button onclick="blogScroll()">博客</button>
+                    <button><a href="/contactsCn.html">联络人</a></button>
+                </div>           
+                <li class="language">
+                    <a href="/indexCn.html">CN</a>
+                    <a href="/indexEn.html">EN</a>
+                    <a href="/index.html">RU</a>
+                </li>
+                <li class="contacts">
+                    <a href="/indexCn.html" style="border-bottom: 3px solid black;">8(800)-555-35-35</a>
+                    <a href="/indexCn.html">email@mail.ru</a>
+                </li>
+            </li>      
+        </ul>      
+     </header>
+
+     <div class="mainOffer">
+        <h1 class="companyName">"名称"苏格兰猫</h1>
+        <div class="mainCatOffer1">
+            <div class="backgroundRectangle1">
+                <h1 class="catOffer1">苏格兰折叠小猫（苏格兰折叠</h1>
+                <div class="catOfferImage1"></div>
+                <button onclick="buyButton1()" class="buyButton1">买一只小猫</button>
+            </div>
+        </div>
+
+        <div class="mainCatOffer2">
+            <div class="backgroundRectangle2">
+                <h1 class="catOffer2">苏格兰直耳小猫（苏格兰折叠）</h1>
+                <div class="catOfferImage2"></div>
+                <button onclick="buyButton2()" class="buyButton2">买一只小猫</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="aboutCompany">
+        <div class="aboutCompanyText">
+            <h1>关于托儿所</h1>
+            <p>一个关于我们为苏格兰折叠猫和直耳猫提供的猫的小故事。<br><br><br>
+                你可以稍后提出文本，而这里没有关于托儿所的信息。 <br><br><br>
+                让它成为一个文本，它将显示带有文本的页面的这一部分将是什么样子。<br><br> 
+                你可以把另一张照片。</p>
+            <div class="companyCatPhoto1"></div><br>
+            <div class="companyCatPhoto2"></div>
+            <div class="aboutCompanyText2">
+                <p>其他一些文字描述了我们狗窝里的小猫。<br><br><br>
+                   你可以稍后提出文本，而这里没有关于托儿所的信息。<br><br><br>                     
+                   让它成为一个文本，它将显示带有文本的页面的这一部分将是什么样子。<br><br><br>                    
+                   你可以把另一张照片。</p>
+            </div>
+        </div>
+     </div>
+
+     <div class="aboutManufacturers">
+        <h1 class="aboutManufacturesText">关于我们的毛茸茸的制造商</h1>
+        <div class="manufacturesPhotos">
+            <img src="/assets/manufactures1.jpg" style="border-radius: 10px;">
+            <img src="/assets/manufactures2.jpg" style="border-radius: 10px;">
+            <img src="/assets/manufactures3.jpg" style="border-radius: 10px;">
+        </div>
+     </div>
+
+     <div class="aboutCatsMale">
+        <h1 class="catsMale">男孩子们</h1>
+        <div class="catsMaleCards">
+            <div class="catsMalePhotos1"></div>
+            <p class="catsMaleInfo">名称:Steve<br>品种:Scottish Fold(SFS)<br>
+                颜色：黑色银色ticked(ns25)<br>
+                标题:冠军(CH)<br>
+                出生日期:04.11.2020<br>
+                状态：制造商<br>
+                属于垃圾：垃圾G2</p>
+            <p class="catsMaleInfo1">我们介绍我们的毕业生,品种的冠军,深情和善良的史蒂夫.
+                一个真正英俊的男人,令人兴奋的性格和明亮的外表!</p>
+            <button class="catsMaleButton">更详细</button>
+        </div>
+
+        <div class="catsMaleCards2">
+            <div class="catsMalePhotos2"></div>
+            <p class="catsMaleInfo">姓名：兰博（Rambo）<br>
+                品种：苏格兰直耳苏格兰直
+                颜色：黑色银色虎斑点（NS2133）<br>
+                标题:Interchampion<br>
+                出生日期:04.11.2020<br>
+                状态：制造商<br>
+                属于垃圾：垃圾H2</p>
+            <p class="catsMaleInfo2">我们向您介绍我们的猫兰博！<br>
+                这个男孩作为一个银牌项目的参与者表现出了很大的希望。nursery.an
+               吸引别人注意的贵族。</p>
+            <button class="catsMaleButton">更详细</button>
+        </div>  
+     </div>
+
+     <div class="aboutCatsFemale">
+        <h1 class="catsFemale">女孩</h1>
+        <div class="catsFemaleCards">
+            <div class="catsFemalePhotos1"></div>
+            <p class="catsFemaleInfo">姓名:莎拉<br>
+                品种:苏格兰褶皱(SFS)<br>
+                颜色：黑色银色ticked(ns25)<br>
+                标题:冠军(CH)<br>
+                出生日期:04.11.2020<br>
+                状态：制造商<br>
+                属于垃圾：垃圾G2</p>
+            <p class="catsFemaleInfo1">我们向您介绍我们的女孩莎拉。<br>
+                非常有礼貌,谦虚,深情和超级咕噜!!! </p>
+            <button class="catsFemaleButton">更详细</button>
+        </div>
+
+        <div class="catsFemaleCards2">
+            <div class="catsFemalePhotos2"></div>
+            <p class="catsFemaleInfo">姓名：咏叹调（咏叹调）<br>
+                品种:苏格兰褶皱(SFS)<br>
+                颜色：黑色银色ticked(ns25)<br>
+                标题:冠军(CH)<br>
+                出生日期:04.11.2020<br>
+                状态：制造商<br>
+                属于垃圾：垃圾H2</p>
+            <p class="catsFemaleInfo2">我们的星咏叹调不同于我们所有的猫有一个不寻常的
+                东方眼切，<br>一个非常填充毛绒皮大衣和开朗的性格。</p>
+            <button class="catsFemaleButton">更详细</button>
+     </div>
+
+     <div class="gallerya">
+        <div class="galleryBackground">
+            <h1>我们的画廊</h1>
+            <ul>
+                <li><img src="/assets/gallery1.jpeg" alt="1"></li>
+                <li><img src="/assets/gallery2.jpeg" alt="2"></li>
+                <li><img src="/assets/gallery3.jpeg" alt="3"></li>
+            </ul>
+        </div>
+     </div>
+
+     <div class="catsSale1">
+        <h1>出售苏格兰折叠小猫</h1>
+        <div class="catSaleCard1">
+            <div class="imageBackground">
+                <div class="catSalePhoto1"></div>
+                <p class="catSaleText1">姓名:比利*赫林顿<br>
+                    性别：猫<br>
+                    出生日期:06.07.2022<br>
+                    颜色:f26<br>
+                    其他：Polydact7-7-6-6，HCM N/N.<br>
+                    文件：兽医护照，合同
+                    销售，血统<br>
+                    属于垃圾：垃圾G2</p>
+                <button class="catSaleButton">留下请求</button>
+            </div>
+        </div>
+        <div class="catSaleCard2">
+            <div class="imageBackground2">
+                <div class="catSalePhoto2"></div>
+                <p class="catSaleText1">名称：范达克霍尔姆（Van Darkholme）<br>
+                    性别：猫<br>
+                    出生日期:05.05.2022<br>
+                    颜色:f25<br>
+                    其他：Polydact7-7-6-6，HCM N/N.<br>
+                    文件：兽医护照，合同
+                    销售，血统<br>
+                    属于垃圾：垃圾H2</p>
+                <button class="catSaleButton">留下请求</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="Background"></div>
+
+     <div class="catsSale2">
+        <h1>出售苏格兰直耳小猫</h1>
+        <div class="catSaleCard3">
+            <div class="imageBackground">
+                <div class="catSalePhoto3"></div>
+                <p class="catSaleText1">姓名：马克*沃尔夫（Mark Wolf）<br>
+                    性别：猫<br>
+                    出生日期:06/16/2022<br>
+                    颜色:f26<br>
+                    其他：Polydact7-7-6-6，HCM N/N.<br>
+                    文件：兽医护照，合同
+                    销售，血统<br>
+                    属于垃圾：垃圾G2</p>
+                <button class="catSaleButton">留下请求</button>
+            </div>
+        </div>
+        <div class="catSaleCard4">
+            <div class="imageBackground2">
+                <div class="catSalePhoto4"></div>
+                <p>姓名：史蒂夫*兰博（Steve Rambo）<br>
+                    性别：猫<br>
+                    出生日期:15.04.2022<br>
+                    颜色:f25<br>
+                    其他：Polydact7-7-6-6，HCM N/N.<br>
+                    文件：兽医护照，合同
+                    销售，血统<br>
+                    属于垃圾：垃圾H2</p>
+                <button class="catSaleButton">留下请求</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="blog">
+        <h1>我们的博客</h1>
+        <ul>
+            <li>
+                <img src="/assets/blog1.jpg">
+                <p>如何处理小猫在<br>
+                    在你家里的第一个小时和几天</p>
+            </li>
+            <li>
+                <img src="/assets/blog2.jpg">
+                <p>猫的压力：<br>
+                    症状和治疗</p>
+            </li>
+            <li>
+                <img src="/assets/blog3.png">
+                <p>的说明<br>
+                    天然营养</p>
+            </li>
+            <li>
+                <img src="/assets/blog4.jpg">
+                <p>如何确定您的<br>
+                    小猫生病了吗？</p>
+            </li>
+            <li>
+                <img src="/assets/blog5.jpg">
+                <p>哪种食物更好：<br>
+                    阅读作文</p>
+            </li>
+            <li>
+                <img src="/assets/blog6.jpg">
+                <p>猫的饮食中的骨头</p>
+            </li>
+        </ul>
+     </div>
+
+     <div class="questions">
+        <div class="formBackground">
+            <h1>有什么问题吗？</h1>
+            <h2>写信给我们！</h2>
+            <p>问你的问题，我们一定会回答</p>
+            <form method="post" class="questionForm">          
+                <input type="email" name="email" placeholder="邮件" required><br>
+                <input type="tel" name="phoneNumber" placeholder="你的电话号码"><br>       
+                <textarea name="mess" placeholder="您的留言" required></textarea><br>           
+                <input type="submit" id="submitButton" value="发送">
+             </form>
+        </div>
+     </div>
+    </body>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><div class="logoFooter"></div></li>
+                <li>
+                    <div class="info">
+                            <ul>
+                                <li>
+                                    <div class="company">
+                                        <ul>
+                                            <li>公司简介</li>
+                                            <li><button onclick="companyScroll()">关于托儿所</button></li>
+                                            <li><a href="/advantagesCn.html">优势</a></li>
+                                        </ul>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <div class="information">                                
+                                        <ul>
+                                            <li>资料</li>
+                                            <li><a href="/reviewsCn.html">检讨报告</a></li>
+                                            <li><a href="/contactsCn.html">联络人</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="stroke"></div> 
+            <div class="footerEnd">
+                <ul>
+                    <li>©"托儿所的名字"2022。 我们爱我们的客户！</li>
+                    <li class="social">我们的社交媒体简介: <a href="/index.html"><img src="/assets/inst.png"><img src="/assets/facebook.png"></a></li>
+                </ul> 
+            </div>            
+        </div>
+    </footer>
+</html>

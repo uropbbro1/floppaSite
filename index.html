@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/style.css" media="all">
+        <meta charset="utf-8">
+        <title>Питомник</title>
+        <style>
+            @font-face {
+            font-family: badScript; /* Гарнитура шрифта */
+            src: url("/fonts/BadScript-Regular.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: bitter; /* Гарнитура шрифта */
+            src: url("/fonts/Bitter-VariableFont_wght.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: asap; /* Гарнитура шрифта */
+            src: url("/fonts/Asap-VariableFont_wght.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: Montserrat; /* Гарнитура шрифта */
+            src: url("/fonts/Montserrat-VariableFont_wght.ttf"); /* Путь к файлу со шрифтом */
+            }
+        </style>
+        <script src="/aboutButtonScroll.js"></script>
+        <script src="/aboutCatsMale.js"></script>
+        <script src="/aboutCatsFemale.js"></script>
+        <script src="/aboutKittens.js"></script>
+        <script src="/blog.js"></script>
+        <script src="/buyButton1.js"></script>
+        <script src="/buybutton2.js"></script>
+        <script src="/func.js"></script>
+    </head>
+    <body>
+     <header>
+        <ul>
+            <li class="navigation">
+                <a href="/index.html" class="logo"><img src="/assets/floppaLogo.jpg" style="border-radius: 50%; align-items: center; margin: 0%; padding: 0%;" width="62" height="62" alt="floppaLogo"></a>
+                <div class="buttons">
+                    <button onclick="companyScroll()">О питомнике</button>
+                    <button onclick="catsMaleScroll()">коты</button>
+                    <button onclick="catsFemaleScroll()">кошки</button>
+                    <button onclick="kittenScroll()">котята</button>
+                    <button onclick="blogScroll()">блог</button>
+                    <button><a href="/contactsRu.html">контакты</a></button>
+                </div>           
+                <li class="language">
+                    <a href="/indexCn.html">CN</a>
+                    <a href="/indexEn.html">EN</a>
+                    <a href="/index.html">RU</a>
+                </li>
+                <li class="contacts">
+                    <a href="/index.html" style="border-bottom: 3px solid black;">8(800)-555-35-35</a>
+                    <a href="/index.html">email@mail.ru</a>
+                </li>
+            </li>      
+        </ul>      
+     </header>
+
+     <div class="mainOffer">
+        <h1 class="companyName">"Название" питомник Шотландских кошек</h1>
+        <div class="mainCatOffer1">
+            <div class="backgroundRectangle1">
+                <h1 class="catOffer1">шотландские вислоухие котята (скоттиш-фолд)</h1>
+                <div class="catOfferImage1"></div>
+                <button onclick="buyButton1()" class="buyButton1">купить котёнка</button>
+            </div>
+        </div>
+
+        <div class="mainCatOffer2">
+            <div class="backgroundRectangle2">
+                <h1 class="catOffer2">шотландские прямоухиее котята (скоттиш-фолд)</h1>
+                <div class="catOfferImage2"></div>
+                <button onclick="buyButton2()" class="buyButton2">купить котёнка</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="aboutCompany">
+        <div class="aboutCompanyText">
+            <h1>О питомнике</h1>
+            <p>небольшой рассказ о нашем питомнике для шотландских вислоухих и прямоухих кошек.<br><br><br>
+                текст придумать можно потом, пока здесь нет информации о питомнике.<br><br><br>                
+                Пусть это будет текст, который покажет как будет выглядеть данная часть страницы с текстом.<br><br><br>                
+                картинку можно поставить другую.</p>
+            <div class="companyCatPhoto1"></div><br>
+            <div class="companyCatPhoto2"></div>
+            <div class="aboutCompanyText2">
+                <p>ещё какой нибудь текст, описывающий котят, которые находятся в нашем питомнике.<br><br><br>
+                    текст придумать можно потом, пока здесь нет информации о питомнике.<br><br><br>                     
+                    Пусть это будет текст, который покажет как будет выглядеть данная часть страницы с текстом.<br><br><br>                    
+                    картинку можно поставить другую.</p>
+            </div>
+        </div>
+     </div>
+
+     <div class="aboutManufacturers">
+        <h1 class="aboutManufacturesText">О наших пушистых производителях</h1>
+        <div class="manufacturesPhotos">
+            <img src="/assets/manufactures1.jpg" style="border-radius: 10px;">
+            <img src="/assets/manufactures2.jpg" style="border-radius: 10px;">
+            <img src="/assets/manufactures3.jpg" style="border-radius: 10px;">
+        </div>
+     </div>
+
+     <div class="aboutCatsMale">
+        <h1 class="catsMale">Коты</h1>
+        <div class="catsMaleCards">
+            <div class="catsMalePhotos1"></div>
+            <p class="catsMaleInfo">Имя: Steve(Стив)<br>Порода: Шотландская вислоухая (SFS)<br>
+                Окрас: Черный серебристый тикированный (ns25)<br>
+                Титул: Чемпион (CH)<br>
+                Дата рождения: 04.11.2020<br>
+                Статус: Производитель<br>
+                Принадлежность к помету: Помет G2</p>
+            <p class="catsMaleInfo1">Представляем нашего выпускника, чемпиона породы,  ласкового и доброго Стива.
+                Настоящий красавец с умопомрачительным характером и яркой внешностью! </p>
+            <button class="catsMaleButton">подробнее</button>
+        </div>
+
+        <div class="catsMaleCards2">
+            <div class="catsMalePhotos2"></div>
+            <p class="catsMaleInfo">Имя: Rambo(Рэмбо)<br>
+                Порода: Шотландская прямоухая Скоттиш-страйт<br>
+                Окрас: Черный серебристый табби пойнт (ns 2133)<br>
+                Титул: Интерчемпион<br>
+                Дата рождения: 04.11.2020<br>
+                Статус: Производитель<br>
+                Принадлежность к помету: Помет H2</p>
+            <p class="catsMaleInfo2">Представляем вам нашего котика Рэмбо!<br>
+                Мальчик подает большие надежды в качестве участника серебристой программы питомника.<br>
+                вальяжный аристократ, притягивающий к себе внимание окружающих.</p>
+            <button class="catsMaleButton">подробнее</button>
+        </div>  
+     </div>
+
+     <div class="aboutCatsFemale">
+        <h1 class="catsFemale">Кошки</h1>
+        <div class="catsFemaleCards">
+            <div class="catsFemalePhotos1"></div>
+            <p class="catsFemaleInfo">Имя: Sara(Сара)<br>
+                Порода: Шотландская вислоухая (SFS)<br>
+                Окрас: Черный серебристый тикированный (ns25)<br>
+                Титул: Чемпион (CH)<br>
+                Дата рождения: 04.11.2020<br>
+                Статус: Производитель<br>
+                Принадлежность к помету: Помет G2</p>
+            <p class="catsFemaleInfo1">Представляем вам нашу девочку Сару.<br>
+                Очень воспитанная, скромная, ласковая и супер мурчащая!!! </p>
+            <button class="catsFemaleButton">подробнее</button>
+        </div>
+
+        <div class="catsFemaleCards2">
+            <div class="catsFemalePhotos2"></div>
+            <p class="catsFemaleInfo">Имя: Aria(Ариа)<br>
+                Порода: Шотландская вислоухая (SFS)<br>
+                Окрас: Черный серебристый тикированный (ns25)<br>
+                Титул: Чемпион (CH)<br>
+                Дата рождения: 04.11.2020<br>
+                Статус: Производитель<br>
+                Принадлежность к помету: Помет H2</p>
+            <p class="catsFemaleInfo2">Наша звёздочка – Ариа отличается от всех наших кошек необычным восточным<br>
+                разрезом глаз, очень набитой плюшевой шубкой и веселым нравом.</p>
+            <button class="catsFemaleButton">подробнее</button>
+     </div>
+
+     <div class="gallerya">
+        <div class="galleryBackground">
+            <h1>Наша Галерея</h1>
+            <ul>
+                <li><img src="/assets/gallery1.jpeg" alt="1"></li>
+                <li><img src="/assets/gallery2.jpeg" alt="2"></li>
+                <li><img src="/assets/gallery3.jpeg" alt="3"></li>
+            </ul>
+        </div>
+     </div>
+
+     <div class="catsSale1">
+        <h1>продаются шотландские вислоухие котята</h1>
+        <div class="catSaleCard1">
+            <div class="imageBackground">
+                <div class="catSalePhoto1"></div>
+                <p class="catSaleText1">Имя: Billy Herrington(Билли Хэррингтон)<br>
+                    Пол: Кот<br>
+                    Дата рождения: 06.07.2022<br>
+                    Окрас: f 26<br>
+                    Прочее:  Полидакт 7-7-6-6, HCM N/N.<br>
+                    Документы: Ветпаспорт, Договор купли<br>
+                    продажи, Родословная<br>
+                    Принадлежность к помету: Помет G2</p>
+                <button class="catSaleButton">Оставить заявку</button>
+            </div>
+        </div>
+        <div class="catSaleCard2">
+            <div class="imageBackground2">
+                <div class="catSalePhoto2"></div>
+                <p class="catSaleText1">Имя: Van Darkholme(Вэн Даркхолм)<br>
+                    Пол: Кот<br>
+                    Дата рождения: 05.05.2022<br>
+                    Окрас: f 25<br>
+                    Прочее:  Полидакт 7-7-6-6, HCM N/N.<br>
+                    Документы: Ветпаспорт, Договор купли<br>
+                    продажи, Родословная<br>
+                    Принадлежность к помету: Помет H2</p>
+                <button class="catSaleButton">Оставить заявку</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="Background"></div>
+
+     <div class="catsSale2">
+        <h1>продаются шотландские прямоухие котята</h1>
+        <div class="catSaleCard3">
+            <div class="imageBackground">
+                <div class="catSalePhoto3"></div>
+                <p class="catSaleText1">Имя: Mark Wolf(Марк вульф)<br>
+                    Пол: Кот<br>
+                    Дата рождения: 16.06.2022<br>
+                    Окрас: f 26<br>
+                    Прочее:  Полидакт 7-7-6-6, HCM N/N.<br>
+                    Документы: Ветпаспорт, Договор купли<br>
+                    продажи, Родословная<br>
+                    Принадлежность к помету: Помет G2</p>
+                <button class="catSaleButton">Оставить заявку</button>
+            </div>
+        </div>
+        <div class="catSaleCard4">
+            <div class="imageBackground2">
+                <div class="catSalePhoto4"></div>
+                <p>Имя: Steve Rambo(Стив Рэмбо)<br>
+                    Пол: Кот<br>
+                    Дата рождения: 15.04.2022<br>
+                    Окрас: f 25<br>
+                    Прочее:  Полидакт 7-7-6-6, HCM N/N.<br>
+                    Документы: Ветпаспорт, Договор купли<br>
+                    продажи, Родословная<br>
+                    Принадлежность к помету: Помет H2</p>
+                <button class="catSaleButton">Оставить заявку</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="blog">
+        <h1>Наш блог</h1>
+        <ul>
+            <li>
+                <img src="/assets/blog1.jpg">
+                <p>Что делать с котёнком в<br>
+                   первые часы и дни у вас дома</p>
+            </li>
+            <li>
+                <img src="/assets/blog2.jpg">
+                <p>Стресс у кошки:<br>
+                   симптомы и лечение</p>
+            </li>
+            <li>
+                <img src="/assets/blog3.png">
+                <p>Инструкция по<br>
+                   натуральному питанию</p>
+            </li>
+            <li>
+                <img src="/assets/blog4.jpg">
+                <p>Как определить, что Ваш<br>
+                   котенок заболел?</p>
+            </li>
+            <li>
+                <img src="/assets/blog5.jpg">
+                <p>Какой корм лучше:<br>
+                   читаем состав</p>
+            </li>
+            <li>
+                <img src="/assets/blog6.jpg">
+                <p>Кости в рационе кошек</p>
+            </li>
+        </ul>
+     </div>
+
+     <div class="questions">
+        <div class="formBackground">
+            <h1>появились вопросы?</h1>
+            <h2>Напишите нам!</h2>
+            <p>задайте свой вопрос и мы обязательно ответим</p>
+            <form method="post" class="questionForm">          
+                <input type="email" name="email" placeholder="Почта" required><br>
+                <input type="tel" name="phoneNumber" placeholder="Ваш телефон"><br>       
+                <textarea name="mess" placeholder="Ваше сообщение" required></textarea><br>           
+                <input type="submit" id="submitButton" value="Отправить">
+             </form>
+        </div>
+     </div>
+    </body>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><div class="logoFooter"></div></li>
+                <li>
+                    <div class="info">
+                            <ul>
+                                <li>
+                                    <div class="company">
+                                        <ul>
+                                            <li>компания</li>
+                                            <li><button onclick="companyScroll()">о питомнике</button></li>
+                                            <li><a href="/advantagesRu.html">преимущества</a></li>
+                                        </ul>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <div class="information">                                
+                                        <ul>
+                                            <li>информация</li>
+                                            <li><a href="/reviewsRu.html">Отзывы</a></li>
+                                            <li><a href="/contactsRu.html">контакты</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="stroke"></div> 
+            <div class="footerEnd">
+                <ul>
+                    <li>© “название питомника” 2022. Мы любим наших клиентов!</li>
+                    <li class="social">наши профили в социальных сетях: <a href="/index.html"><img src="/assets/inst.png"><img src="/assets/facebook.png"></a></li>
+                </ul> 
+            </div>            
+        </div>
+    </footer>
+</html>

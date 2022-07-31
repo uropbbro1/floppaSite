@@ -1,0 +1,1100 @@
+header{
+    background-image: url("/assets/headerBackground.jpg");
+    width: 100vw;
+    height: 84px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+body{
+    width: 100vw;
+}
+
+.logo{
+    position: relative;
+    bottom: 5px;
+    width: 62px;
+    height: 62px;
+    z-index: 7;
+}
+
+.navigation button{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    width: auto;
+    height: auto;
+    font-family: 'badScript';
+    background: none;
+    border: none;
+    position: relative;
+    top: 10px;
+    z-index: 7;
+    padding-left: 20px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.language{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    right: 330px;
+    bottom: 55px;
+    gap: 20px;
+    padding-right: 28px;
+    z-index: 6;  
+}
+
+.language a{
+    background: none;
+    border: none;
+    line-height: 39px;
+    width: auto;
+    height: auto;
+    font-family: 'badScript';
+    font-size: 24px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    bottom: 110px;
+    left: 450px;
+    padding-right: 28px;
+    font-size: 24px;
+    
+}
+
+.contacts a{
+    font-family: 'bitter';
+    padding-bottom: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    align-self: center;
+}
+
+a:visited {
+    color: black;
+    list-style-type: none;
+    font-style: normal;
+}
+
+.mainOffer{
+    height: 662px;
+    background: url("/assets/offerBackground.png")no-repeat;
+    width: 100vw;
+    bottom: 10px;
+    right: 10px;
+    max-width: 100vw;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 84px;
+}
+
+.companyName{
+    position: absolute;
+    width: 394px;
+    height: 116px;
+    left: 443px;
+    top: 80px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.backgroundRectangle1{
+    height: 368px;
+    width: 260px;
+    background-color: #624C4C;
+    z-index: 0;
+    border-radius: 5%;
+    position: absolute;
+    left: 176px;
+    top: 240px;
+}
+
+.catOffer1{
+    position:relative;
+    width: 240px;
+    height: 74px;
+    top: 0px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.catOfferImage1{
+    position: absolute;
+    width: 229.43px;
+    height: 195.91px;
+    left: 15px;
+    top: 80px;
+    background-image: url(/assets/catMainOffer1.jpg);
+}
+
+.buyButton1{
+    position: absolute;
+    width: 200px;
+    height: 54px;
+    left: 30px;
+    top: 300px;
+    border-radius: 20px;
+    background-color: #9D1A1A;
+    font-family: 'badScript';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.backgroundRectangle2{
+    height: 368px;
+    width: 260px;
+    background-color: #624C4C;
+    z-index: 0;
+    border-radius: 5%;
+    position: absolute;
+    left: 822px;
+    top: 240px;
+}
+
+.catOffer2{
+    position:relative;
+    width: 240px;
+    height: 74px;
+    left: 30px;
+    top: 0px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.catOfferImage2{
+    position: absolute;
+    width: 229.43px;
+    height: 195.91px;
+    left: 15px;
+    top: 80px;
+    background-image: url(/assets/carMainOffer2.jpg);
+}
+
+.buyButton2{
+    position: absolute;
+    width: 200px;
+    height: 54px;
+    left: 30px;
+    top: 300px;
+    border-radius: 20px;
+    background-color: #9D1A1A;
+    font-family: 'badScript';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.buyButtonText2{
+    position:relative;
+    width: 146px;
+    height: 52px;
+    left: 60px;
+    top: 205px;
+    font-family: 'badScript';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.aboutCompany{
+    position: absolute;
+    width: 100vw;
+    height: 1046px;
+    left: 0px;
+    top: 746px;
+    background-image: url("/assets/aboutCompanyBackground.png");
+}
+
+.aboutCompanyText{
+    width: 40%;
+    height: 398px;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    font-family: 'badScript';
+}
+
+.aboutCompanyText h1{
+    width: 202px;
+    height: 60px;
+    font-size: 36px;
+    position: relative;
+    left: 200px;
+}
+
+.aboutCompanyText p{
+    color:black;
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: 'asap';
+}
+
+.aboutCompanyText2{
+    width:fit-content;
+    height: 418px;
+    font-size: 20px;
+    position: relative;
+    left: 750px;
+    top: 0px;
+    font-family: 'badScript';
+}
+
+.companyCatPhoto1{
+    width: 676px;
+    height: 440px;
+    background-image: url("/assets/companyCatPhoto1.jpg");
+    position: absolute;
+    left: 610px;
+    top: 0px;
+    border-radius: 15px;
+}
+
+.companyCatPhoto2{
+    width: 676px;
+    height: 440px;
+    background-image: url("/assets/companyCatPhoto2.jpg");
+    position: absolute;
+    left: 10px;
+    top: 500px;
+    border-radius: 15px;
+}
+
+.aboutManufacturers{
+    position:absolute;
+    width: 100vw;
+    height: 670px;
+    background-image: url("/assets/aboutManufacturers.jpg");
+    top: 1792px;
+    left: 0px;
+    text-align: center;
+}
+
+.aboutManufacturers h1{
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    left: 376px;
+    top: 0px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 79px;
+    letter-spacing: -0.015em;
+    color: #2E589A;
+}
+
+.manufacturesPhotos{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 170px;
+}
+
+.aboutCatsMale{
+    position: absolute;
+    width: 100vw;
+    height: 1500px;
+    left: 0px;
+    top: 2462px;
+    background-image: url("/assets/catsMaleBackground.jpeg");
+}
+
+.aboutCatsMale h1{
+    color: #003FA1;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+
+.catsMaleCards{
+    background-color: #D9706D;
+    height: 620px;
+    width: 1170px;
+    position:relative;
+    left: 5%;
+    top: 30px;
+    border-radius: 5px;
+    margin-bottom: 90px;
+}
+
+.catsMaleCards2{
+    background-color: #D9706D;
+    height: 620px;
+    width: 1170px;
+    position:relative;
+    left: 5%;
+    top: 30px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.catsMalePhotos1{
+    position: absolute;
+    background-image: url("/assets/catsMalePhoto1.jpg");
+    height: 358px;
+    width: 488px;
+    border-radius: 10px;
+    left: 45px;
+    top: 30px;
+}
+
+.catsMaleInfo{
+    position: absolute;
+    width: 600px;
+    height: 361px;
+    left: 550px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    color: #FDD8DD;
+    text-align: left;
+}
+
+.catsMaleInfo1{
+    position: relative;
+    width: 880px;
+    height: 98px;
+    left: 210px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 51px;
+    letter-spacing: -0.015em;
+    color: #FDD8DD;
+    top: 430px;
+}
+
+.catsMaleButton{
+    position: absolute;
+    width: 179px;
+    height: 49.92px;
+    left: 530px;
+    background: #6B83A9;
+    border-radius: 15px;
+    top: 560px;
+    font-family: 'badScript';
+    font-size: 24px;
+    color: white;
+}
+
+.catsMalePhotos2{
+    position: absolute;
+    background-image: url("/assets/catsMalePhoto2.jpg");
+    height: 358px;
+    width: 488px;
+    border-radius: 10px;
+    left: 45px;
+    top: 30px;
+}
+
+.catsMaleInfo2{
+    position: relative;
+    width: 1000px;
+    height: 98px;
+    left: 100px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    color: #FDD8DD;
+    top: 410px;
+}
+
+.aboutCatsFemale{
+    position: absolute;
+    width: 100vw;
+    height: 1500px;
+    left: 0px;
+    top: 3960px;
+    background-image: url("/assets/catsFemaleBackground.jpg");
+}
+
+.aboutCatsFemale h1{
+    color: #609286;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+
+.catsFemaleCards{
+    background-color: #A26273;
+    height: 620px;
+    width: 1170px;
+    position:relative;
+    left: 5%;
+    top: 30px;
+    border-radius: 5px;
+    margin-bottom: 90px;
+}
+
+.catsFemaleCards2{
+    background-color: #A26273;
+    height: 620px;
+    width: 1170px;
+    position:relative;
+    left: 5%;
+    top: 30px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.catsFemalePhotos1{
+    position: absolute;
+    background-image: url("/assets/catsFemalePhoto1.jpg");
+    height: 358px;
+    width: 488px;
+    border-radius: 10px;
+    left: 45px;
+    top: 30px;
+}
+
+.catsFemaleInfo{
+    position: absolute;
+    width: 600px;
+    height: 362px;
+    left: 550px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    color: #D7DFC7;
+    text-align: left;
+}
+
+.catsFemaleInfo1{
+    position: relative;
+    width: 880px;
+    height: 98px;
+    left: 320px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 51px;
+    letter-spacing: -0.015em;
+    color: #D7DFC7;
+    top: 420px;
+    text-align: left;
+}
+
+.catsFemaleButton{
+    position: absolute;
+    width: 179px;
+    height: 49.92px;
+    left: 530px;
+    background: #54A08E;
+    border-radius: 15px;
+    top: 550px;
+    font-family: 'badScript';
+    font-size: 24px;
+    color: white;
+}
+
+.catsFemalePhotos2{
+    position: absolute;
+    background-image: url("/assets/catsFemalePhoto2.jpg");
+    height: 358px;
+    width: 488px;
+    border-radius: 10px;
+    left: 45px;
+    top: 30px;
+}
+
+.catsFemaleInfo2{
+    position: relative;
+    width: 1000px;
+    height: 98px;
+    left: 250px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    color: #D7DFC7;
+    top: 420px;
+    text-align: left;
+}
+
+.gallerya{
+    position: absolute;
+    width: 100vw;
+    height: 762px;
+    background-image: url("/assets/galleryBackground.png");
+    left: 0px;
+    top: 1500px;
+}
+
+.galleryBackground{
+    position: absolute;
+    width: 1052px;
+    height: 570px;
+    left: 114px;
+    top: 100px;
+    background-image: url("/assets/galleryBack.png");
+}
+
+.galleryBackground ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.galleryBackground h1{
+    color: white;
+    font-family: 'badScript';
+}
+
+.galleryBackground ul li img{
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    top: 5vw;
+    right: 1vw;
+    border-radius: 15px;
+}
+
+.catsSale1{
+    position: absolute;
+    width: 100vw;
+    height: 1280px;
+    top: 2260px;
+    background-image: url("/assets/catsSales1Background.jpg");
+}
+
+.catsSale1 h1{
+    text-align: center;
+    color: black;
+}
+
+.catSaleCard1{
+    width: 742px;
+    height: 416px;
+    position: relative;
+    background-color: #FFB2B2;
+    left: 290px;
+    top: 100px;
+    border-radius: 15px;
+}
+
+.imageBackground{
+    position: absolute;
+    width: 300px;
+    height: 282px;
+    left: 20px;
+    top: 60px;
+    background: #8B1C1C;
+    border-radius: 25px;
+}
+
+.catSalePhoto1{
+    position: absolute;
+    width: 284px;
+    height: 268px;
+    left: 8px;
+    top: 8px;
+    background: url("/assets/catSalePhoto1.jpg");
+    border-radius: 15px;
+}
+
+.imageBackground .catSaleText1{
+    position: relative;
+    top: -20px;
+    width: 700px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    color: black;
+    text-align: left;
+}
+
+.catSaleButton{
+    background-color: #732727;
+    position: relative;
+    width: 154px;
+    height: 50px;
+    left: 30vw;
+    border-radius: 25px;
+    color: white;
+    top: 0px;
+}
+
+.catSaleCard1{
+    width: 742px;
+    height: 416px;
+    position: relative;
+    background-color: #FFB2B2;
+    left: 290px;
+    top: 200px;
+    border-radius: 15px;
+}
+
+.imageBackground2{
+    position: absolute;
+    width: 300px;
+    height: 282px;
+    left: 20px;
+    top: 60px;
+    background: #8B1C1C;
+    border-radius: 25px;
+}
+
+.catSalePhoto2{
+    position: absolute;
+    width: 284px;
+    height: 268px;
+    left: 8px;
+    top: 8px;
+    background: url("/assets/catSalePhoto2.jpg");
+    border-radius: 15px;
+}
+
+.imageBackground2 .catSaleText1{
+    position: relative;
+    top: -20px;
+    width: 700px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    font-style: normal;
+    color: black;
+    text-align: left;
+}
+
+.Background{
+    position: absolute;
+    width: 100vw;
+    height: 450px;
+    left: 0px;
+    top: 3540px;
+    background: url("/assets/background.jpg")repeat;
+}
+
+.catsSale2{
+    position: absolute;
+    width: 100vw;
+    height: 1200px;
+    top: 3980px;
+    background-image: url("/assets/catSales2Background.jpg");
+}
+
+.catsSale2 h1{
+    text-align: center;
+    color: black;
+}
+
+.catSaleCard1{
+    width: 742px;
+    height: 416px;
+    position: relative;
+    background-color: #FFB2B2;
+    left: 290px;
+    top: 100px;
+    border-radius: 15px;
+}
+
+.catSaleCard2 p{
+    position: relative;
+    width: 700px;
+    left: 330px;
+    bottom: 40px;
+    font-family: 'badScript';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    color: black;
+}
+
+.imageBackground{
+    position: absolute;
+    width: 300px;
+    height: 282px;
+    left: 20px;
+    top: 60px;
+    background: #8B1C1C;
+    border-radius: 25px;
+}
+
+.catSalePhoto1{
+    position: absolute;
+    width: 284px;
+    height: 268px;
+    left: 8px;
+    top: 8px;
+    background: url("/assets/catSalePhoto1.jpg");
+    border-radius: 15px;
+}
+
+.catSaleCard1 p{
+    position: relative;
+    width: 700px;
+    left: 330px;
+    bottom: 40px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    color: black;
+}
+
+.catSaleButton{
+    background-color: #732727;
+    position: relative;
+    width: 154px;
+    height: 50px;
+    left: 30vw;
+    bottom: 30px;
+    border-radius: 25px;
+    color: white;
+}
+
+
+.catSaleCard2{
+    width: 742px;
+    height: 416px;
+    position: relative;
+    background-color: #FFB2B2;
+    left: 290px;
+    top: 200px;
+    border-radius: 15px;
+}
+
+.catSaleCard3{
+    width: 742px;
+    height: 416px;
+    position: relative;
+    background-color: #879B85;
+    left: 290px;
+    top: 50px;
+    border-radius: 15px;
+}
+
+.catSaleCard3 p{
+    position: relative;
+    width: 700px;
+    left: 330px;
+    bottom: 40px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    color: black;
+}
+.catSalePhoto3{
+    position: absolute;
+    width: 284px;
+    height: 268px;
+    left: 8px;
+    top: 8px;
+    background: url("/assets/catSalePhoto3.jpg");
+    border-radius: 15px;
+}
+
+.imageBackground2{
+    position: absolute;
+    width: 300px;
+    height: 282px;
+    left: 20px;
+    top: 60px;
+    background: #8B1C1C;
+    border-radius: 25px;
+}
+
+.catSalePhoto4{
+    position: absolute;
+    width: 284px;
+    height: 268px;
+    left: 8px;
+    top: 8px;
+    background: url("/assets/catSalePhoto4.jpg");
+    border-radius: 15px;
+}
+
+.catSaleCard4{
+    width: 742px;
+    height: 416px;
+    position: relative;
+    background-color: #879B85;
+    left: 290px;
+    top: 150px;
+    border-radius: 15px;
+}
+
+.catSaleCard4 p{
+    position: relative;
+    width: 700px;
+    left: 330px;
+    top: -20px;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    color: black;
+    text-align: left;
+}
+
+.blog{
+    position: absolute;
+    width: 100vw;
+    height: 1280px;
+    top: 5180px;
+    background-image: url("/assets/blogBackground.jpg");
+}
+
+.blog h1{
+    font-family: 'badScript';
+}
+
+.blog ul{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.blog ul li{
+    list-style: none;
+    flex: 0 0 33.333333%;
+    position: relative;
+    top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 80px;
+    font-family: 'badScript';
+}
+
+.blog ul li img{
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.blog ul li p{
+    position: relative;
+    top: -20px;
+}
+
+.blog h1{
+    color: white;
+}
+
+.questions{
+    width: 100vw;
+    height: 824px;
+    background-image: url("/assets/questionFormBackground.jpg");
+    position: absolute;
+    top: 6450px;
+}
+
+.formBackground{
+    width: 934px;
+    height: 672px;
+    background-image: url("/assets/formBackground.jpg");
+    border-radius: 15px;
+    position: relative;
+    left: 15%;
+    top: 100px;
+}
+
+.formBackground h1,h2,p{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    font-family: 'badScript';
+}
+
+.questionForm{
+    position: absolute;
+    top: 200px;
+    left: 35%;
+}
+
+.questionForm input,textarea{
+    position: relative;
+    background: transparent;
+    border: none;
+    padding-top: 50px;
+    border-bottom: 2px solid #fff;
+    font-family: 'badScript';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+    width: 120%;
+    color: white;
+}
+
+#submitButton{
+    background: #8B0E0E;
+    width: 137px;
+    height: 60px;
+    border-radius: 15px;
+    left: 25%;
+    border: none;
+    top: 20px;
+    font-size: 18px;
+    vertical-align:super;
+    padding-top: 0px;
+}
+
+.footer{
+    background: white;
+    position: absolute;
+    width: 100vw;
+    height: 349px;
+    top: 7270px;
+}
+
+.logoFooter{
+    background: url("/assets/bigFloppaLogo.jpg");
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    right: 20px;
+}
+
+.company ul{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    text-align: left;
+    position: relative;
+    top:50px;
+}
+
+.company ul li button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    z-index: 7;
+}
+
+.company ul li{
+    padding-top: 10px;
+}
+
+.company ul li:first-child{
+    font-weight: bold;
+}
+
+.information ul{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    text-align: left;
+    position: relative;
+    top:50px;
+}
+
+.information ul li{
+    padding-top: 10px;
+}
+
+.information ul li:first-child{
+    font-weight: bold;
+}
+
+.stroke{
+    position: absolute;
+    width: 90vw;
+    height: 3px;
+    left: 70px;
+    top: 7500px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.footerEnd ul{
+    position: absolute;
+    width: 90vw;
+    height: 30px;
+    top: 7550px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footerEnd ul li{
+    font-family: 'Montserrat';
+}
+
+.footerEnd ul .social{
+    position: relative;
+    bottom: 30px;
+}
+
+.footerEnd ul img{
+    position: relative;
+    top: 10px;
+}

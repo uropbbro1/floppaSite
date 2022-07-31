@@ -1,0 +1,177 @@
+.advantages{
+    background: url("/assets/advantagesBackground.jpg");
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 600px;
+    color: white;
+    font-family: 'badScript';
+}
+
+.advantages h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.advantages ul{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    left: 0px;
+}
+
+.advantages ul li{
+    padding-left: 20px;
+    width: 30vw;
+}
+
+.advantages ul p{
+    font-size: 20px;
+}
+
+.advantages button{
+    width: 15vw;
+    height: 100px;
+    background: #004315;
+    border-radius: 15px;
+    position: relative;
+    top:0vw;
+    left: 41vw;
+    font-family: 'badScript';
+    font-size: 30px;
+    color: black;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.advantages a{
+    text-decoration: none;
+}
+
+.footer{
+    background: white;
+    position: absolute;
+    width: 100vw;
+    height: 349px;
+    top: 600px;
+}
+
+.logoFooter{
+    background: url("/assets/bigFloppaLogo.jpg");
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    right: 20px;
+}
+
+.company ul{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    text-align: left;
+    position: relative;
+    top:50px;
+}
+
+.company ul li button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    z-index: 7;
+}
+
+.company ul li{
+    padding-top: 10px;
+}
+
+.company ul li a{
+    text-decoration: none;
+}
+
+.company ul li:first-child{
+    font-weight: bold;
+}
+
+.information ul{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    text-align: left;
+    position: relative;
+    top:50px;
+}
+
+.information ul li{
+    padding-top: 10px;
+}
+
+.information ul li:first-child{
+    font-weight: bold;
+}
+
+.information ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.company ul li a:visited{
+    color: black;
+}
+
+.stroke{
+    position: absolute;
+    width: 90vw;
+    height: 3px;
+    left: 70px;
+    top: 800px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.footerEnd ul{
+    position: absolute;
+    width: 90vw;
+    height: 30px;
+    top: 850px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footerEnd ul li{
+    font-family: 'Montserrat';
+}
+
+.footerEnd ul .social{
+    position: relative;
+    bottom: 30px;
+}
+
+.footerEnd ul img{
+    position: relative;
+    top: 10px;
+}
